@@ -6,5 +6,5 @@ Here, the classification performance of deep learning models will be tested for 
 # Data Gathering and Preprocessing
 The dataset that will be used in the study is the PlantVillage Dataset obtained in https://github.com/spMohanty/PlantVillage-Dataset/tree/master. Here, only tomato leaves will be considered in the study. Summarized in the table below the type of tomato leaf disease and its corresponding number of images in the dataset.
 
-![image](raw dataset.png)
+![image](raw_dataset.png)
 
