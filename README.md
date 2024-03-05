@@ -33,4 +33,15 @@ The tradeoff of number of epochs versus learning rate were observed for each DCG
 
 Meanwhile, figure below shows the real image and the generated fake image per class using their corresponding hyperparameters. Note that while fake images were quite blurry, it was generated using a 60x60x3 input image and the DCGAN output was also 60x60x3 due to computing resource limitations.
 
-![image](fake.png)
+![image](fake_img_gen.png)
+
+# Performance at Varying Learning Rate
+Shown in two tables below the summary of validation accuracies of augmented and non-augmented dataset using VGG-16 and ResNet50. Results showed that validation accuracies for augmented dataset performed better compared to non-augmented dataset.
+
+![image](VGG16_val_accuracy.png)
+
+![image](ResNet_val_accuracy.png)
+
+Lastly, Table below summarized the corresponding F1-score, accuracy, precision, and recall of the models on test set. In terms of model comparison, VGG-16 outperformed ResNet-50 on all performance metrics considering the same dataset.
+
+![image](test.png)
